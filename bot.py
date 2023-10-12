@@ -15,10 +15,10 @@ from pyrogram import Client
 class channelforward(Client, Config):
     def __init__(self):
         super().__init__(
-            name="CHANNELFORWARD",
-            bot_token=self.BOT_TOKEN,
-            api_id=self.API_ID,
-            api_hash=self.API_HASH,
+            name="LOOTDHAMAKAFORWARDBOT",
+            bot_token=self."6224525172:AAHb759YC2EkymTQfcDnXfj6ytB9XkNi9aM",
+            api_id=self."29760783",
+            api_hash=self."10dab55bfc1510dd1aef4f6c83b3e9e4",
             workers=20,
             plugins={'root': 'Plugins'}
         )
